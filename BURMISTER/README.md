@@ -1,13 +1,22 @@
 # Program BURMISTER
-Program **BURMISTER** zosta³ stworzony w celu obliczania przemieszczeñ, naprê¿eñ i odkszta³ceñ w dowolnym punkcie nawierzchni drogowej. Autorski program wykorzystuje model wielowarstwowej pó³przestrzeni sprê¿ystej. Œcis³e rozwi¹zanie tego zadania we wspó³rzêdnych walcowych, przy wykorzystaniu symetrii obci¹¿enia wzglêdem osi pionowej, zosta³o po raz pierwszy podane w roku 1943 przez **Donalda Burmistera** dla przypadku dwóch warstw, a nastêpnie rozszerzone w roku 1945 na przypadek trzech warstw. Program jest implementacj¹ rozwi¹zania ogólnego (dowolna liczba warstw) z zastosowaniem biharmonicznej funkcji naprê¿eñ, które przedstawiono w pracy **"Mechanika nawierzchni drogowej"** (Stefan Firlej, Lublin 2007, ISBN 978-83-918460-8-7). W rozwi¹zaniu analitycznym takiego modelu nawierzchni drogowej wystêpuj¹ funkcje podca³kowe, które nie pozwalaj¹ na otrzymanie funkcji pierwotnej i wymagaj¹ zastosowania metod ca³kowania numerycznego.
-Program sk³ada siê z dwóch g³ównych czêœci: modu³u obliczeniowego oraz graficznego interfejsu u¿ytkownika (GUI). Do obliczeñ matematycznych, zw³aszcza ca³kowania numerycznego, wykorzystano bibliotekê Python Numpy. GUI opracowano przy u¿yciu biblioteki klas wxWidgets. Podstawowe funkcjonalnoœci oferowane przez program to:
+Program **BURMISTER** zostaÅ‚ stworzony w celu obliczania przemieszczeÅ„, naprÄ™Å¼eÅ„ i odksztaÅ‚ceÅ„ w dowolnym punkcie nawierzchni drogowej. Autorski program wykorzystuje model wielowarstwowej pÃ³Å‚przestrzeni sprÄ™Å¼ystej. ÅšcisÅ‚e rozwiÄ…zanie tego zadania we wspÃ³Å‚rzÄ™dnych walcowych, przy wykorzystaniu symetrii obciÄ…Å¼enia wzglÄ™dem osi pionowej, zostaÅ‚o po raz pierwszy podane w roku 1943 przez **Donalda Burmistera** dla przypadku dwÃ³ch warstw, a nastÄ™pnie rozszerzone w roku 1945 na przypadek trzech warstw. Program jest implementacjÄ… rozwiÄ…zania ogÃ³lnego (dowolna liczba warstw) z zastosowaniem biharmonicznej funkcji naprÄ™Å¼eÅ„, ktÃ³re przedstawiono w pracy **"Mechanika nawierzchni drogowej"** (Stefan Firlej, Lublin 2007, ISBN 978-83-918460-8-7). W rozwiÄ…zaniu analitycznym takiego modelu nawierzchni drogowej wystÄ™pujÄ… funkcje podcaÅ‚kowe, ktÃ³re nie pozwalajÄ… na otrzymanie funkcji pierwotnej i wymagajÄ… zastosowania metod caÅ‚kowania numerycznego.
+Program skÅ‚ada siÄ™ z dwÃ³ch gÅ‚Ã³wnych czÄ™Å›ci: moduÅ‚u obliczeniowego oraz graficznego interfejsu uÅ¼ytkownika (GUI). Do obliczeÅ„ matematycznych, zwÅ‚aszcza caÅ‚kowania numerycznego, wykorzystano bibliotekÄ™ Python Numpy. GUI opracowano przy uÅ¼yciu biblioteki klas wxWidgets. Podstawowe funkcjonalnoÅ›ci oferowane przez program to:
 
-- Wprowadzania danych (liczba i uk³ad warstw, materia³y, obci¹¿enia).
-- Zapisywanie parametrów zadania w postaci pliku tekstowego.
-- Import parametrów zadania z pliku tekstowego.
-- Przeprowadzenie badania i oceny zbie¿noœci rozwi¹zania (zale¿ne od liczby iteracji w ca³kowaniu numerycznym).
-- Zmiana ustawieñ podstawowych (np. liczba iteracji) 
-- Rozwi¹zanie zadania - wyznaczenie przemieszczeñ, odkszta³ceñ i naprê¿eñ w danym punkcie pó³przestrzeni.
+- Wprowadzania danych (liczba i ukÅ‚ad warstw, materiaÅ‚y, obciÄ…Å¼enia).
+- Zapisywanie parametrÃ³w zadania w postaci pliku tekstowego.
+- Import parametrÃ³w zadania z pliku tekstowego.
+- Przeprowadzenie badania i oceny zbieÅ¼noÅ›ci rozwiÄ…zania (zaleÅ¼ne od liczby iteracji w caÅ‚kowaniu numerycznym).
+- Zmiana ustawieÅ„ podstawowych (np. liczba iteracji) 
+- RozwiÄ…zanie zadania - wyznaczenie przemieszczeÅ„, odksztaÅ‚ceÅ„ i naprÄ™Å¼eÅ„ w danym punkcie pÃ³Å‚przestrzeni.
 
-Du¿¹ zalet¹ podsiadania takiego programu jest mo¿liwoœæ ³atwej analizy wp³ywu danego parametru na rozwi¹zanie. W pracy program wykorzystano np. do doboru gêstoœci podzia³u w~zadaniach MES, poprzez porównania zgodnoœci wyników MES z rozwi¹zaniem analitycznym. Wyniki pos³u¿y³y tak¿e jako wzorzec do porównania z bardziej zaawansowanymi rozwi¹zaniami niesprê¿ystymi. G³ównym ograniczeniem opracowanego programu jest wyliczania rozwi¹zania tylko w punkcie. Brak mo¿liwoœci automatycznego tworzenia wykresów zmian danej wielkoœci np. po g³êbokoœci czy rozk³adów w postaci map warstwicowych. Du¿¹ zalet¹ programu jest budowa modu³owa, która umo¿liwia dodanie kolejnych elementów dla wzbogacenia aplikacji (np. modu³ obliczaj¹cy trwa³oœæ uk³adu warstw nawierzchni na podstawie wyliczonych stanów odkszta³ceñ oraz zadanych parametrów materia³owych i wytrzyma³oœciowych).
+DuÅ¼Ä… zaletÄ… podsiadania takiego programu jest moÅ¼liwoÅ›Ä‡ Å‚atwej analizy wpÅ‚ywu danego parametru na rozwiÄ…zanie. W pracy program wykorzystano np. do doboru gÄ™stoÅ›ci podziaÅ‚u w~zadaniach MES, poprzez porÃ³wnania zgodnoÅ›ci wynikÃ³w MES z rozwiÄ…zaniem analitycznym. Wyniki posÅ‚uÅ¼yÅ‚y takÅ¼e jako wzorzec do porÃ³wnania z bardziej zaawansowanymi rozwiÄ…zaniami niesprÄ™Å¼ystymi. GÅ‚Ã³wnym ograniczeniem opracowanego programu jest wyliczania rozwiÄ…zania tylko w punkcie. Brak moÅ¼liwoÅ›ci automatycznego tworzenia wykresÃ³w zmian danej wielkoÅ›ci np. po gÅ‚Ä™bokoÅ›ci czy rozkÅ‚adÃ³w w postaci map warstwicowych. DuÅ¼Ä… zaletÄ… programu jest budowa moduÅ‚owa, ktÃ³ra umoÅ¼liwia dodanie kolejnych elementÃ³w dla wzbogacenia aplikacji (np. moduÅ‚ obliczajÄ…cy trwaÅ‚oÅ›Ä‡ ukÅ‚adu warstw nawierzchni na podstawie wyliczonych stanÃ³w odksztaÅ‚ceÅ„ oraz zadanych parametrÃ³w materiaÅ‚owych i wytrzymaÅ‚oÅ›ciowych).
 
+<p align="center">
+  <img src="https://github.com/RafalMichalczyk/PavementDesign/blob/main/imgs/brmstr_win1.png?raw=false" alt="GÅ‚Ã³wne okno programu z pokazanymi opcjami menu"/>
+</p> 
+Fig. GÅ‚Ã³wne okno programu z pokazanymi opcjami menu.
+
+<p align="center">
+  <img src="https://github.com/RafalMichalczyk/PavementDesign/blob/main/imgs/brmstr_win2.png?raw=false" alt="Okno wyswietlajË›ace informacje o wersji programu"/>
+</p> 
+Fig. Okno wyswietlajÄ…ce informacje o wersji programu.
