@@ -15,7 +15,7 @@ Narzędzie stanowi implementację procedury zaproponowanej w rozdziale **4.5 Alg
 
 # Everything is moving to the cloud ...
 
-Trwają prace nad uruchomieniem programu w serwisie AWS. Pozwoli to każdemu użytkownikowi na prowadzenie obliczeń bez konieczności instalowania jakiegokolwiek oprogramowania. Jednocześnie wymaga to od autorów dostosowania kodu programu do nowych wymagań. Jeśli z jakiegoś powodu jesteś zainteresowany poprzednią, statyczną wersją aplikacji - prosimy o kontakt.  
+Trwają prace nad uruchomieniem programu w serwisie AWS. Pozwoli to każdemu użytkownikowi na prowadzenie obliczeń bez konieczności instalowania jakiegokolwiek oprogramowania. Jednocześnie wymaga to od autora dostosowania kodu programu do nowych wymagań. Jeśli z jakiegoś powodu jesteś zainteresowany poprzednią, statyczną wersją aplikacji - proszę o kontakt.  
 <p align="center">
   <img src="https://github.com/RafalMichalczyk/PavementDesign/blob/main/imgs/aws_migration.jpg?raw=false" alt="Everything moving to the cloud"/>
 </p>
