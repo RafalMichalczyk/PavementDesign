@@ -1,4 +1,4 @@
-# PavementDesign
+# Pavement Design
 **Structural analysis of pavement with consideration of inelastic material properties of structural layers. Formulation and numerical implementation of non-classical constitutive models of asphalt-aggregate mixes for elastic-viscoplastic deformations.**
 <p align="center">
   <img style="width : auto;height: 345px;" src="https://github.com/RafalMichalczyk/PavementDesign/blob/main/imgs/pavement_design_cover_pl.jpg?raw=false" alt="Book cover"/>
