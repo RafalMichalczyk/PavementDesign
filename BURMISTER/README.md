@@ -14,9 +14,19 @@ Dużą zaletą podsiadania takiego programu jest możliwość łatwej analizy wp
 <p align="center">
   <img src="https://github.com/RafalMichalczyk/PavementDesign/blob/main/imgs/brmstr_win1.png?raw=false" alt="Główne okno programu z pokazanymi opcjami menu"/>
 </p> 
-Fig. Główne okno programu z pokazanymi opcjami menu.
+
+*Fig. Główne okno programu z pokazanymi opcjami menu.*
 
 <p align="center">
   <img src="https://github.com/RafalMichalczyk/PavementDesign/blob/main/imgs/brmstr_win2.png?raw=false" alt="Okno wyswietlaj˛ace informacje o wersji programu"/>
 </p> 
-Fig. Okno wyswietlające informacje o wersji programu.
+
+*Fig. Okno wyswietlające informacje o wersji programu.*
+
+# Everything moving to the cloud ...
+
+Trwają prace nad uruchomieniem programu w serwisie AWS. Pozwoli to każdemu użytkownikowi na prowadzenie obliczeń bez konieczności instalowania jakiegokolwiek oprogramowania. Jednocześnie wymaga to od autorów dostosowania kodu programu do nowych wymagań. Jeśli z jakiegoś powodu jesteś zainteresowany poprzednią, statyczną wersją aplikacji - prosimy o kontakt.  
+
+<p align="center">
+  <img src="https://github.com/RafalMichalczyk/PavementDesign/blob/main/imgs/aws_migration.jpg?raw=false" alt="Everything moving to the cloud"/>
+</p> 
