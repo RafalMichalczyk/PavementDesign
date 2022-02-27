@@ -1,0 +1,13 @@
+# Program BURMISTER
+Program **BURMISTER** zosta³ stworzony w celu obliczania przemieszczeñ, naprê¿eñ i odkszta³ceñ w dowolnym punkcie nawierzchni drogowej. Autorski program wykorzystuje model wielowarstwowej pó³przestrzeni sprê¿ystej. Œcis³e rozwi¹zanie tego zadania we wspó³rzêdnych walcowych, przy wykorzystaniu symetrii obci¹¿enia wzglêdem osi pionowej, zosta³o po raz pierwszy podane w roku 1943 przez **Donalda Burmistera** dla przypadku dwóch warstw, a nastêpnie rozszerzone w roku 1945 na przypadek trzech warstw. Program jest implementacj¹ rozwi¹zania ogólnego (dowolna liczba warstw) z zastosowaniem biharmonicznej funkcji naprê¿eñ, które przedstawiono w pracy **"Mechanika nawierzchni drogowej"** (Stefan Firlej, Lublin 2007, ISBN 978-83-918460-8-7). W rozwi¹zaniu analitycznym takiego modelu nawierzchni drogowej wystêpuj¹ funkcje podca³kowe, które nie pozwalaj¹ na otrzymanie funkcji pierwotnej i wymagaj¹ zastosowania metod ca³kowania numerycznego.
+Program sk³ada siê z dwóch g³ównych czêœci: modu³u obliczeniowego oraz graficznego interfejsu u¿ytkownika (GUI). Do obliczeñ matematycznych, zw³aszcza ca³kowania numerycznego, wykorzystano bibliotekê Python Numpy. GUI opracowano przy u¿yciu biblioteki klas wxWidgets. Podstawowe funkcjonalnoœci oferowane przez program to:
+
+- Wprowadzania danych (liczba i uk³ad warstw, materia³y, obci¹¿enia).
+- Zapisywanie parametrów zadania w postaci pliku tekstowego.
+- Import parametrów zadania z pliku tekstowego.
+- Przeprowadzenie badania i oceny zbie¿noœci rozwi¹zania (zale¿ne od liczby iteracji w ca³kowaniu numerycznym).
+- Zmiana ustawieñ podstawowych (np. liczba iteracji) 
+- Rozwi¹zanie zadania - wyznaczenie przemieszczeñ, odkszta³ceñ i naprê¿eñ w danym punkcie pó³przestrzeni.
+
+Du¿¹ zalet¹ podsiadania takiego programu jest mo¿liwoœæ ³atwej analizy wp³ywu danego parametru na rozwi¹zanie. W pracy program wykorzystano np. do doboru gêstoœci podzia³u w~zadaniach MES, poprzez porównania zgodnoœci wyników MES z rozwi¹zaniem analitycznym. Wyniki pos³u¿y³y tak¿e jako wzorzec do porównania z bardziej zaawansowanymi rozwi¹zaniami niesprê¿ystymi. G³ównym ograniczeniem opracowanego programu jest wyliczania rozwi¹zania tylko w punkcie. Brak mo¿liwoœci automatycznego tworzenia wykresów zmian danej wielkoœci np. po g³êbokoœci czy rozk³adów w postaci map warstwicowych. Du¿¹ zalet¹ programu jest budowa modu³owa, która umo¿liwia dodanie kolejnych elementów dla wzbogacenia aplikacji (np. modu³ obliczaj¹cy trwa³oœæ uk³adu warstw nawierzchni na podstawie wyliczonych stanów odkszta³ceñ oraz zadanych parametrów materia³owych i wytrzyma³oœciowych).
+
