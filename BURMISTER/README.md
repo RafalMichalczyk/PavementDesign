@@ -23,7 +23,7 @@ Dużą zaletą podsiadania takiego programu jest możliwość łatwej analizy wp
 
 *Fig. Okno wyswietlające informacje o wersji programu.*
 
-# Everything moving to the cloud ...
+# Everything is moving to the cloud ...
 
 Trwają prace nad uruchomieniem programu w serwisie AWS. Pozwoli to każdemu użytkownikowi na prowadzenie obliczeń bez konieczności instalowania jakiegokolwiek oprogramowania. Jednocześnie wymaga to od autorów dostosowania kodu programu do nowych wymagań. Jeśli z jakiegoś powodu jesteś zainteresowany poprzednią, statyczną wersją aplikacji - prosimy o kontakt.  
 
