@@ -13,7 +13,7 @@ Narzędzie stanowi implementację procedury zaproponowanej w rozdziale **4.5 Alg
 
 *Fig. Struktura programu w przypadku doboru parametrów szeregu Prony’ego.*
 
-# Everything moving to the cloud ...
+# Everything is moving to the cloud ...
 
 Trwają prace nad uruchomieniem programu w serwisie AWS. Pozwoli to każdemu użytkownikowi na prowadzenie obliczeń bez konieczności instalowania jakiegokolwiek oprogramowania. Jednocześnie wymaga to od autorów dostosowania kodu programu do nowych wymagań. Jeśli z jakiegoś powodu jesteś zainteresowany poprzednią, statyczną wersją aplikacji - prosimy o kontakt.  
 <p align="center">
