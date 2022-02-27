@@ -4,7 +4,7 @@
   <img style="width : auto;height: 345px;" src="https://github.com/RafalMichalczyk/PavementDesign/blob/main/imgs/pavement_design_cover_pl.jpg?raw=false" alt="Book cover"/>
 </p> 
 
-## Abstract
+### Abstract
 Primary objective of this research was the formulation of constitutive equations of elasto-visco-plastic materials, which can be used in numerical simulation of flexible pavement. Commonly used elastic model cannot adequately predict pavement performance taking into consideration temperature, duration and intensity of loading. This was the motivation to improve material modeling and characterization techniques. 
 
 The procedure of the formulation of constitutive equations for asphalt-aggregate mixes is based on rheological schemes composed of classical elastic, viscous and plastic elements. The thesis presents the proposition of an original rheological schemes based on Maxwell model and including plasticity. The method uses phenomenological approach and is well suited for the modelling of viscoplastic deformations. 
